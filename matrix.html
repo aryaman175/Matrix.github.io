@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Matrix Calculator</title>
+<link rel="stylesheet" href="matrix.css">
+<script src="jquery.js"></script>
+<script src="matrix.js"></script>
+<script src="matrixLib.js"></script>
+
+<h1><center> Matrix Calculator</center></h1>
+  <h4><center> By Aryaman Kumar</center> </h6>
+  </head>
+  <body>
+<div class ="group1">
+<input type="number" min="1" max="5"  id="r" class="step1" placeholder="Rows">
+<input type="number" min="1" max="5"  id="c" class="step1" placeholder="columns">
+<button id ="b" class="step1"> Create New Matrix </button>
+</div>
+
+<div class = "tablesPos">
+<div class = "tableGroup">
+
+<div class="table empty">
+  <p class="unit" id ="text1"> A = </p>
+<div class ="unit">
+  <table  id="tab1">
+  </table>
+  <button id="b1" class="del"> Delete Matrix </button>
+  </div>
+</div>
+
+
+
+
+<div class="table">
+<p class="unit" id ="text2"> B = </p>
+<div class ="unit">
+<table id="tab2">
+</table>
+<button id ="b2" class="del"> Delete Matrix </button>
+</div>
+</div>
+
+<div class="table">
+
+<p class="unit" id ="text3"> C = </p>
+<div class ="unit">
+<table id ="tab3">
+</table>
+<button id ="b3" class="del"> Delete Matrix </button>
+</div>
+</div>
+</div>
+</div>
+
+<div class = "calcsPos">
+<div class = "calcs">
+<input id="evalI" class="calc" placeholder="Ex: 4*A + 3*B ">
+<button id ="evalB" class="calc"> Evaluate </button>
+<button id ="trans" class="calc" > Transpose </button>
+</div>
+</div>
+
+
+<div class ="answer">
+  <div class="answer4float">
+  <p class ="answerElm"> Result = </p>
+
+<table id ="answerT" class="answerElm">
+<table>
+<p id ="final">
+</p>
+  <table>
+  </div>
+
+  </body>
+</html>

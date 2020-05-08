@@ -1,0 +1,104 @@
+body
+{
+  background-color: #ffaf7d;
+}
+button
+{
+  cursor:pointer;
+}
+.group1
+{
+  position: absolute;
+  top:20%
+}
+
+.step1{
+  font-size: 30px;
+  width:130px;
+  margin: 0px 30px;
+}
+#b
+{
+  width:300px;
+}
+
+.tablesPos{
+  position: absolute;
+  top:25%;
+}
+
+.tableGroup
+{
+  position:relative;
+}
+
+.table
+{
+  position:relative;
+  float:left;
+  font-size: 30px;
+  float: left;
+  margin:30px;
+  border:none;
+}
+.unit
+{
+  margin:5px;
+  float:left;
+}
+
+
+
+
+.calcsPos
+{
+  position: absolute;
+  top:80%;
+}
+
+.calcs{
+position: relative;
+}
+.calc{
+float:left;
+font-size:30px;
+margin: 0px 30px;
+width:200px;
+}
+
+
+
+
+.answer{
+    position:absolute;
+    top:90%;
+    font-size: 30px;
+  }
+
+.answer4float{
+    position: relative;
+}
+  .answerElm{
+    float:left;
+    margin: 0px 20px;
+  }
+
+#final{
+  position:absolute;
+   margin-top: 0px;
+  top:90%;
+  font-size: 30px;
+  left:150px;
+  width:1000px;
+}
+
+td input{
+   font-size: 30px;
+   height:50px;
+  width:50px;
+}
+td{
+   font-size: 30px;
+  height:50px;
+  width:50px;
+}
